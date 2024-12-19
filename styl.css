@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body main {
+  margin-left: 250px;
+}
+@media screen and (max-width: 496px) {
+  body main {
+    margin-left: 150px;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #7E1891;
+  margin-top: 0;
+}
+@media screen and (max-width: 950px) {
+  h1 {
+    font-size: 20px;
+    color: red;
+  }
+}
+@media screen and (max-width: 496px) {
+  h1 {
+    font-size: 25px;
+  }
+}
+
+h2 {
+  font-size: 30px;
+}
+@media screen and (max-width: 950px) {
+  h2 {
+    color: greenyellow;
+  }
+}
+@media screen and (max-width: 496px) {
+  h2 {
+    font-size: 22px;
+  }
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 950px) {
+  h3 {
+    color: aquamarine;
+  }
+}
+@media screen and (max-width: 496px) {
+  h3 {
+    font-size: 20px;
+  }
+}
+
+p {
+  font-size: 20px;
+  margin: 20px;
+}
+@media screen and (max-width: 950px) and (max-width: 950px) {
+  p {
+    color: coral;
+  }
+}
+@media screen and (max-width: 496px) {
+  p {
+    font-size: 15px;
+  }
+}
+
+h4 {
+  font-size: 20px;
+}
+@media screen and (max-width: 950px) {
+  h4 {
+    color: crimson;
+  }
+}
+
+h5 {
+  font-size: 25px;
+  align-items: center;
+  margin-left: 400px;
+}
+@media screen and (max-width: 950px) {
+  h5 {
+    margin-left: 30px;
+    color: aqua;
+  }
+}
+@media screen and (max-width: 496px) {
+  h5 {
+    margin-left: 10px;
+  }
+}
+
+.bloc_nav {
+  background-color: #F26B0F;
+  height: 100%;
+  position: fixed;
+  width: 250px;
+  border-right: 3px solid white;
+  align-self: flex-start;
+}
+@media screen and (max-width: 496px) {
+  .bloc_nav {
+    width: 150px;
+  }
+}
+.bloc_nav .image {
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  padding: 25px;
+}
+.bloc_nav .image img {
+  display: block;
+  width: 90%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid rgb(217, 255, 0);
+}
+@media screen and (max-width: 496px) {
+  .bloc_nav .image img {
+    width: 100%;
+    height: 80%;
+  }
+}
+.bloc_nav .navbar {
+  margin-top: 130px;
+}
+@media screen and (max-width: 496px) {
+  .bloc_nav .navbar {
+    margin-top: 30px;
+  }
+}
+.bloc_nav .navbar ul {
+  padding-top: 20px;
+}
+.bloc_nav .navbar ul li {
+  list-style-type: none;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 40px;
+  height: 50px;
+}
+.bloc_nav .navbar ul li a {
+  color: #7E1891;
+  text-decoration: none;
+}
+.bloc_nav .navbar ul li a:hover {
+  color: darkblue;
+  font-size: 40px;
+}
+.bloc_nav .navbar ul li a:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+.bloc_nav .navbar ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  width: 100%;
+  height: 3px;
+  background-color: aqua;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+
+.bloc_home {
+  border-bottom: 5px solid #7E1891;
+  background-color: #e49936;
+  width: 100%;
+  padding: 100px 0px 100px 15px;
+  box-sizing: border-box;
+}
+.bloc_home .text_home {
+  padding: 0 60px;
+}
+
+.bloc_aporpos {
+  border-bottom: 5px solid #7E1891;
+  background-color: #F26B0F;
+}
+.bloc_aporpos .division {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 496px) {
+  .bloc_aporpos .division {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.bloc_aporpos .division .description {
+  margin: auto;
+  font-size: 50px;
+}
+.bloc_aporpos .division .images {
+  width: 80%;
+}
+.bloc_aporpos .division .images img {
+  margin: 20px 20px;
+}
+@media screen and (max-width: 496px) {
+  .bloc_aporpos .division .images img {
+    width: 100%;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 950px) {
+  .bloc_aporpos .division .images img {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.bloc_loisir {
+  background-color: #e49936;
+  border-bottom: 5px solid #7E1891;
+}
+.bloc_loisir ul {
+  margin: auto;
+  text-align: center;
+}
+.bloc_loisir ul li {
+  list-style-type: none;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.contact {
+  background-color: #F26B0F;
+  border-bottom: 5px solid #7E1891;
+  height: 100%;
+}
+.contact .styl_contact {
+  padding-left: 30px;
+}
+.contact .styl_contact i {
+  color: blue;
+}
+.contact .language {
+  margin-left: 20px;
+}
+
+a input {
+  background-color: rgb(238, 255, 0);
+  padding: 15px;
+  border-radius: 15px;
+  color: #7E1891;
+  margin-top: 30px;
+}
+a input:hover {
+  cursor: pointer;
+  background-color: white;
+  color: red;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=styl.css.map */

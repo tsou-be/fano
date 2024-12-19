@@ -1,0 +1,15 @@
+.contact{
+    background-color: $main-color;
+    border-bottom: 5px solid $text-color;
+    height: 100%;
+    .styl_contact{
+        padding-left: 30px;
+        i{
+            color: blue;
+        }
+    }
+    .language{
+        margin-left: 20px;
+
+    }
+}

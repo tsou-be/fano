@@ -1,0 +1,13 @@
+.bloc_loisir{
+    background-color: $bc-sec_color;
+    border-bottom: 5px solid $text-color;
+    ul{
+        margin: auto;
+        text-align: center;
+        li{
+            list-style-type: none;
+            font-size: 30px;
+            padding-top: 30px;
+        }
+    }
+}

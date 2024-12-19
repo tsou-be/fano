@@ -1,0 +1,11 @@
+.bloc_home{
+    border-bottom: 5px solid $text-color;
+    background-color: $bc-sec_color;
+    width: 100%;
+    padding: 100px 0px 100px 15px;
+    box-sizing: border-box;
+    .text_home{
+        padding: 0 60px;
+    }
+    
+}

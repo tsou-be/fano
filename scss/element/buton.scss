@@ -1,0 +1,16 @@
+a{
+    input{
+        background-color: rgb(238, 255, 0);
+        padding: 15px;
+        border-radius: 15px;
+        color: $text-color;
+        margin-top: 30px;
+        &:hover{
+            cursor: pointer;
+            background-color: white;
+            color: red;
+            padding: 10px;
+        }
+    }
+
+}

@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    main{
+        margin-left:250px;
+        @include respond-to(496px){
+            margin-left: 150px;
+        }
+    }
+}

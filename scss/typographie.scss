@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: $text-color;
+    margin-top: 0;
+    @include respond-to(950px){
+         font-size: 20px;
+         color: red;
+    }
+    @include respond-to(496px){
+        font-size: 25px;
+        
+    }
+}
+h2{
+    font-size: 30px;
+    @include respond-to(950px){
+        color: greenyellow;
+    }
+    @include respond-to(496px){
+        font-size: 22px;
+    }
+
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+    @include respond-to(950px){
+        color: aquamarine;
+    }
+    @include respond-to(496px){
+        font-size: 20px;
+    }
+
+}
+p{
+    font-size: 20px;
+    margin: 20px;
+    @include respond-to(950px){
+        @include respond-to(950px){
+            color: coral;
+        }
+    }
+    @include respond-to(496px){
+        font-size: 15px;
+    }
+}
+h4{
+    font-size: 20px;
+    @include respond-to(950px){
+        color: crimson;
+    }
+}
+h5{
+    font-size: 25px;
+    align-items: center;
+    margin-left:400px;
+    @include respond-to(950px){
+        margin-left: 30px;
+        color: aqua;
+    }
+    @include respond-to(496px){
+        margin-left: 10px;
+    }
+
+    
+}
